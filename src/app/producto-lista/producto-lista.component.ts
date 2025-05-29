@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Producto } from '../producto';
+import { ProductoService } from '../producto.service';
 
 @Component({
   selector: 'app-producto-lista',
@@ -6,5 +8,27 @@ import { Component } from '@angular/core';
   templateUrl: './producto-lista.component.html',
 })
 export class ProductoListaComponent {
+  productos!: Producto[];
+
+  private productoServicio = inject(ProductoService);
+
+  ngOnInit(){
+    //Cargar los productos del metodo
+    this.obtenerProductos();
+  }
+
+
+  private obtenerProductos(): void{
+    this.productoServicio.obtenerProductosLista().subscribe(
+      {
+        next: (datos) => {
+          this.productos = datos;
+        },
+        error:(error) =>{
+          console.error("Error al imprimimr los objetos",error);
+        }
+      }
+    );
+  }
 
 }
