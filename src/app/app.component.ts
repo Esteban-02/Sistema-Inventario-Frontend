@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
-import { ProductoListaComponent } from "./producto-lista/producto-lista.component";
+import { RouterModule } from '@angular/router';
 
 
 @Component({
   selector: 'app-root',
 
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
-  imports: [ProductoListaComponent]
+  imports: [RouterModule]
 })
 export class AppComponent {
   title = 'inventario-app';
