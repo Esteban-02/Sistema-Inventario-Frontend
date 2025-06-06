@@ -2,6 +2,7 @@
 ## Frontend
 
 Este repositorio tiene como objetivo presentar visualmente el código y la funcionalidad del backend de una aplicación de gestión de productos. La aplicación permite visualizar una lista de productos obtenidos desde una base de datos, así como agregar nuevos productos, editarlos y eliminarlos tanto de la interfaz como de la base de datos. Para el desarrollo se utilizó Angular, aprovechando el enlace bidireccional (Two-Way Binding) para lograr una comunicación fluida entre los componentes y las vistas. En cuanto al diseño, se emplearon plantillas de Bootstrap para estructurar y presentar la lista de productos, el menú de navegación y los formularios de entrada de texto de manera clara y responsiva.
+
 🚀 Funcionalidades:
 
 - Mostrar lista de productos guardados en la base de datos
