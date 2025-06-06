@@ -1,59 +1,63 @@
-# InventarioApp
+# *Inventario de productos*
+## Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+Este repositorio tiene como objetivo presentar visualmente el código y la funcionalidad del backend de una aplicación de gestión de productos. La aplicación permite visualizar una lista de productos obtenidos desde una base de datos, así como agregar nuevos productos, editarlos y eliminarlos tanto de la interfaz como de la base de datos. Para el desarrollo se utilizó Angular, aprovechando el enlace bidireccional (Two-Way Binding) para lograr una comunicación fluida entre los componentes y las vistas. En cuanto al diseño, se emplearon plantillas de Bootstrap para estructurar y presentar la lista de productos, el menú de navegación y los formularios de entrada de texto de manera clara y responsiva.
+🚀 Funcionalidades:
 
-## Development server
+- Mostrar lista de productos guardados en la base de datos
+- Agregar nuevos productos
+- Actualizar la lista
+- Editar productos
+- Eliminar un producto
 
-To start a local development server, run:
+📌 Pasos de ejecucion:
 
-```bash
-ng serve
-```
+Para obtener este repositorio se debe clonar el repositorio a traves de esta URL en un IDE de desarrollo, para el desarrollo de este codigo lo hice con Visual Studio Code.
+Para su correcto funcionamiento con las funciones de la base de datos se debe ingresar a este repositorio del esta URL https://github.com/Esteban-02/Sistema_inventario_Productos para descargar el BackEnd o clonarlo. En el repositorio del BackEnd esta las instrucicones
+El puerto de conexion del BackEnd con el FrontEnd se hace a traves del puerto por defecto de Angular por el puerto 4200
+  * Clonar repositorio con la URL => https://github.com/Esteban-02/Sistema-Inventario-Frontend.git
+  * Descargar los paquetes de Angular con el comando desde la consola => npm install -g @angular/cli
+  * Se ejecuta el servicio con el comando => ng serve
+  * Como es una aplicacion que se ejecuta de manera local se ingresa desde el navegador con la URL => http://localhost:4200/productos
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🔧 Herramientas:
+  * Visual Studio Code
+    
+<a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" alt="html5" width="40" height="40" /> </a>
 
-## Code scaffolding
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🖥️ Tecnologias:
+- Angular
+- TypeScript
+- HTML
+- MySQL
 
-```bash
-ng generate component component-name
-```
+<p>
+<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+	  alt="html5" width="40" height="40" /> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" /> </a> <a href="https://angular.dev/" target="_blank" rel="noreferrer"> <img   src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png" alt="angular" width="40" height="40" /> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png" alt="typeScript" width="40" height="40" /> </a>
+</p>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## 📸Capturas
+- Lista de productos en la base de datos
 
-## Building
+<img src="/Aset/Lista de productos.png">
 
-To build the project run:
+- Agregar Nuevo producto
 
-```bash
-ng build
-```
+<img src="/Aset/Agregar Producto.png">
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- Ejemplo Agregar Nuevo Producto
 
-## Running unit tests
+<img src="/Aset/Ejemplo Agregar un producto.png">
+  
+- Editar un produto
+<img src="/Aset/Editar un producto.png">
+  
+- Eliminar producto
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+<img src="/Aset/Eliminar un producto.png">
 
-```bash
-ng test
-```
+- Entorno de desarrollo
 
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<img src="/Aset/Entorno de desarrollo.png">
